@@ -15,6 +15,10 @@
 		1CF2656B1EE9E3F200D453B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2656A1EE9E3F200D453B0 /* main.m */; };
 		1CF265751EE9E3F200D453B0 /* TokenTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF265741EE9E3F200D453B0 /* TokenTextViewTests.m */; };
 		1CF265801EE9E3F200D453B0 /* TokenTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2657F1EE9E3F200D453B0 /* TokenTextViewUITests.m */; };
+		1CF2658F1EE9E46700D453B0 /* OTXTokenTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2658E1EE9E46700D453B0 /* OTXTokenTextView.m */; };
+		1CF265951EEA26ED00D453B0 /* OTXTokenAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF265941EEA26ED00D453B0 /* OTXTokenAttachment.m */; };
+		1CF265981EEB34C700D453B0 /* DebugTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF265971EEB34C700D453B0 /* DebugTextView.m */; };
+		1CF2659B1EEB4B2E00D453B0 /* OTXTokenAttachmentTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2659A1EEB4B2E00D453B0 /* OTXTokenAttachmentTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		1CF2657B1EE9E3F200D453B0 /* TokenTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF2657F1EE9E3F200D453B0 /* TokenTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenTextViewUITests.m; sourceTree = "<group>"; };
 		1CF265811EE9E3F200D453B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF2658D1EE9E46700D453B0 /* OTXTokenTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTXTokenTextView.h; sourceTree = "<group>"; };
+		1CF2658E1EE9E46700D453B0 /* OTXTokenTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTXTokenTextView.m; sourceTree = "<group>"; };
+		1CF265931EEA26ED00D453B0 /* OTXTokenAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTXTokenAttachment.h; sourceTree = "<group>"; };
+		1CF265941EEA26ED00D453B0 /* OTXTokenAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTXTokenAttachment.m; sourceTree = "<group>"; };
+		1CF265961EEB34C600D453B0 /* DebugTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugTextView.h; sourceTree = "<group>"; };
+		1CF265971EEB34C700D453B0 /* DebugTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugTextView.m; sourceTree = "<group>"; };
+		1CF265991EEB4B2E00D453B0 /* OTXTokenAttachmentTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTXTokenAttachmentTextView.h; sourceTree = "<group>"; };
+		1CF2659A1EEB4B2E00D453B0 /* OTXTokenAttachmentTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTXTokenAttachmentTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				1CF2655C1EE9E3F200D453B0 /* AppDelegate.m */,
 				1CF2655E1EE9E3F200D453B0 /* ViewController.h */,
 				1CF2655F1EE9E3F200D453B0 /* ViewController.m */,
+				1CF265931EEA26ED00D453B0 /* OTXTokenAttachment.h */,
+				1CF265941EEA26ED00D453B0 /* OTXTokenAttachment.m */,
+				1CF2658D1EE9E46700D453B0 /* OTXTokenTextView.h */,
+				1CF2658E1EE9E46700D453B0 /* OTXTokenTextView.m */,
+				1CF265991EEB4B2E00D453B0 /* OTXTokenAttachmentTextView.h */,
+				1CF2659A1EEB4B2E00D453B0 /* OTXTokenAttachmentTextView.m */,
+				1CF265961EEB34C600D453B0 /* DebugTextView.h */,
+				1CF265971EEB34C700D453B0 /* DebugTextView.m */,
 				1CF265611EE9E3F200D453B0 /* Main.storyboard */,
 				1CF265641EE9E3F200D453B0 /* Assets.xcassets */,
 				1CF265661EE9E3F200D453B0 /* LaunchScreen.storyboard */,
@@ -263,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF265601EE9E3F200D453B0 /* ViewController.m in Sources */,
+				1CF2659B1EEB4B2E00D453B0 /* OTXTokenAttachmentTextView.m in Sources */,
+				1CF2658F1EE9E46700D453B0 /* OTXTokenTextView.m in Sources */,
+				1CF265951EEA26ED00D453B0 /* OTXTokenAttachment.m in Sources */,
 				1CF2656B1EE9E3F200D453B0 /* main.m in Sources */,
 				1CF2655D1EE9E3F200D453B0 /* AppDelegate.m in Sources */,
+				1CF265981EEB34C700D453B0 /* DebugTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
